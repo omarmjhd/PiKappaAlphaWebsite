@@ -776,6 +776,63 @@
 		background-position: top left, center center;
 	}
 
+
+
+/*********************************************************************************/
+/* IntroAD                                                                       */
+/*********************************************************************************/
+
+	#introAD {
+		background: url('../images/IntroAD.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/*********************************************************************************/
+/* Scholars                                                                      */
+/*********************************************************************************/
+
+	#scholars {
+		background: url('../images/Scholars.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/*********************************************************************************/
+/* Leaders                                                                       */
+/*********************************************************************************/
+
+	#leaders {
+		background: url('images/overlay.png'), url('../images/Leaders.jpg') no-repeat center center fixed;
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/*********************************************************************************/
+/* Athletes                                                                      */
+/*********************************************************************************/
+
+	#athletes {
+		background: url('../images/Athletes.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/*********************************************************************************/
+/* Gentlemen                                                                     */
+/*********************************************************************************/
+
+	#gentlemen {
+		background: url('images/overlay.png'), url('../images/Gentlemen.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
 /*********************************************************************************/
 /* Work                                                                          */
 /*********************************************************************************/
