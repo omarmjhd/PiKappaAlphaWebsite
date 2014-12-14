@@ -55,7 +55,7 @@
 	}
 
 	h4 {
-		color: #39454b;;
+		color: #39454b;
 		font-size: 2.25em;
 		font-weight: bold;
 		letter-spacing: 10px;
@@ -639,8 +639,14 @@
 /*********************************************************************************/
 
 	.icon {
-		text-decoration: none;
-	}
+		 text-decoration: none;
+		 color: #E7AD36;
+		 font-size: 300%;
+	 }
+
+		.icon:hover {
+			color: white;
+		}
 
 		.icon:before {
 			display: inline-block;
