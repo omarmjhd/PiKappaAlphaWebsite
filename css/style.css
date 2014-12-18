@@ -840,10 +840,91 @@
 	}
 
 /*********************************************************************************/
+/* IntroPhoto                                                                    */
+/*********************************************************************************/
+
+	#introPhoto {
+		background: url('../images/photo.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/*********************************************************************************/
+/* PhotoDescription1                                                             */
+/*********************************************************************************/
+
+	#photod1 {
+		background: url('../images/photo1/cover.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+		#photod1 a {
+
+			color: #39454b;
+
+		}
+
+/*********************************************************************************/
+/* PhotoDescription2                                                             */
+/*********************************************************************************/
+
+	#photod2 {
+		background: url('../images/photo2/cover.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+		#photod2 a {
+
+			color: #39454b;
+
+		}
+
+/*********************************************************************************/
+/* PhotoDescription3                                                             */
+/*********************************************************************************/
+
+	#photod3 {
+		background: url('../images/photo3/cover.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+		#photod3 a {
+
+			color: #39454b;
+
+		}
+
+/*********************************************************************************/
+/* PhotoDescription4                                                             */
+/*********************************************************************************/
+
+	#photod4 {
+		background: url('../images/photo4/cover.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+	#photod4 a {
+
+		color: #39454b;
+
+	}
+
+/*********************************************************************************/
 /* Work                                                                          */
 /*********************************************************************************/
 
 	#work {
+
+		background: url('../images/one.jpg')
 	}
 	
 		#work .row.images {
@@ -890,7 +971,7 @@
 				#work .row.images.inactive .image.from-bottom {
 					top: 7em;
 				}
-			
+
 /*********************************************************************************/
 /* Contact                                                                       */
 /*********************************************************************************/
