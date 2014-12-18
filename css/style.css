@@ -839,13 +839,23 @@
 		background-position: top left, center center;
 	}
 
+/*********************************************************************************/
+/* IntroPhoto                                                                    */
+/*********************************************************************************/
+
+	#introPhoto {
+		background: url('../images/photo.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
 
 /*********************************************************************************/
 /* PhotoDescription1                                                             */
 /*********************************************************************************/
 
 	#photod1 {
-		background: url('../images/Scholars.jpg');
+		background: url('../images/photo1/cover.jpg');
 		background-size: 100%;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -862,7 +872,7 @@
 /*********************************************************************************/
 
 	#photod2 {
-		background: url('../images/Scholars.jpg');
+		background: url('../images/photo2/cover.jpg');
 		background-size: 100%;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -879,7 +889,7 @@
 /*********************************************************************************/
 
 	#photod3 {
-		background: url('../images/Scholars.jpg');
+		background: url('../images/photo3/cover.jpg');
 		background-size: 100%;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -896,7 +906,7 @@
 /*********************************************************************************/
 
 	#photod4 {
-		background: url('../images/Scholars.jpg');
+		background: url('../images/photo4/cover.jpg');
 		background-size: 100%;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
