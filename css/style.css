@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
 @import url('font-awesome.min.css');
 
@@ -633,37 +633,21 @@
 				.dark .button.style2.down {
 					background-image: url('images/dark-arrow.svg');
 				}
-		
+
 /*********************************************************************************/
-<<<<<<< HEAD
-/* Icon1                                                                         */
+/* Icon1                                                                        */
 /*********************************************************************************/
 
 	.icon1 {
-=======
-/* Icons                                                                         */
-/*********************************************************************************/
-
-	.icon {
->>>>>>> 765169f31eb664d99106606b3f5b77e12b481249
 		 text-decoration: none;
 		 color: #E7AD36;
 		 font-size: 300%;
 	 }
-
-<<<<<<< HEAD
 		.icon1:hover {
 			color: white;
 		}
 
-		.icon1:before {
-=======
-		.icon:hover {
-			color: white;
-		}
-
 		.icon:before {
->>>>>>> 765169f31eb664d99106606b3f5b77e12b481249
 			display: inline-block;
 			font-family: FontAwesome;
 			font-size: 1.25em;
@@ -674,8 +658,6 @@
 			-webkit-font-smoothing:antialiased;
 			-moz-osx-font-smoothing:grayscale;
 		}
-		
-<<<<<<< HEAD
 		.icon1 > .label {
 			display: none;
 		}
