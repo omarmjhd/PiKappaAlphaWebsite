@@ -705,11 +705,8 @@
 			-webkit-font-smoothing:antialiased;
 			-moz-osx-font-smoothing:grayscale;
 		}
-
+		
 		.icon2 > .label {
-=======
-		.icon > .label {
->>>>>>> 765169f31eb664d99106606b3f5b77e12b481249
 			display: none;
 		}
 
