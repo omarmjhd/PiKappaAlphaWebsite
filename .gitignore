@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 
 *.iml
@@ -44,3 +45,6 @@ atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties.idea/
+=======
+.idea/
+>>>>>>> 765169f31eb664d99106606b3f5b77e12b481249
