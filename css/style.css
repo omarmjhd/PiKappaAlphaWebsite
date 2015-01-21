@@ -871,7 +871,7 @@
 /*********************************************************************************/
 
 	#leaders {
-		background: url('images/overlay.png'), url('../images/Leaders.jpg') no-repeat center center fixed;
+		background: url('../images/Leaders.jpg');
 		background-size: 100%;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -979,58 +979,83 @@
 	}
 
 /*********************************************************************************/
-/* Work                                                                          */
+/* IntroPhoto                                                                    */
 /*********************************************************************************/
 
-	#work {
+	#introPhoto {
+		background: url('../images/photo.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+}
 
-		background: url('../images/one.jpg')
+/*********************************************************************************/
+/* PhotoDescription1                                                             */
+/*********************************************************************************/
+
+	#photod1 {
+		background: url('../images/photo1/cover.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
 	}
-	
-		#work .row.images {
-		}
-	
-			#work .row.images .image {
-				position: relative;
-				top: 0;
-				left: 0;
-				opacity: 1.0;
-			
-				-moz-transition: all 1s ease;
-				-webkit-transition: all 1s ease;
-				-o-transition: all 1s ease;
-				-ms-transition: all 1s ease;
-				transition: all 1s ease;
-				
-				-moz-transform: translateZ(0);
-				-webkit-transform: translateZ(0);
-				-o-transform: translateZ(0);
-				-ms-transform: translateZ(0);
-				transform: translateZ(0);
-			}
-		
-			#work .row.images.inactive {
-			}
 
-				#work .row.images.inactive .image {
-					opacity: 0;
-				}
-			
-				#work .row.images.inactive .image.from-left {
-					left: -14em;
-				}
-			
-				#work .row.images.inactive .image.from-right {
-					left: 14em;
-				}
-			
-				#work .row.images.inactive .image.from-top {
-					top: -7em;
-				}
-			
-				#work .row.images.inactive .image.from-bottom {
-					top: 7em;
-				}
+		#photod1 a {
+
+			color: #39454b;
+
+		}
+
+/*********************************************************************************/
+/* PhotoDescription2                                                             */
+/*********************************************************************************/
+
+	#photod2 {
+		background: url('../images/photo2/cover.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+		#photod2 a {
+
+			color: #39454b;
+
+		}
+
+/*********************************************************************************/
+/* PhotoDescription3                                                             */
+/*********************************************************************************/
+
+	#photod3 {
+		background: url('../images/photo3/cover.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+		#photod3 a {
+
+			color: #39454b;
+
+		}
+
+/*********************************************************************************/
+/* PhotoDescription4                                                             */
+/*********************************************************************************/
+
+	#photod4 {
+		background: url('../images/photo4/cover.jpg');
+		background-size: 100%;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+		#photod4 a {
+
+			color: #39454b;
+
+		}
 
 /*********************************************************************************/
 /* Contact                                                                       */
