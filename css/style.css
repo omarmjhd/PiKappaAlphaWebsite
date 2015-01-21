@@ -635,20 +635,35 @@
 				}
 		
 /*********************************************************************************/
+<<<<<<< HEAD
+/* Icon1                                                                         */
+/*********************************************************************************/
+
+	.icon1 {
+=======
 /* Icons                                                                         */
 /*********************************************************************************/
 
 	.icon {
+>>>>>>> 765169f31eb664d99106606b3f5b77e12b481249
 		 text-decoration: none;
 		 color: #E7AD36;
 		 font-size: 300%;
 	 }
 
+<<<<<<< HEAD
+		.icon1:hover {
+			color: white;
+		}
+
+		.icon1:before {
+=======
 		.icon:hover {
 			color: white;
 		}
 
 		.icon:before {
+>>>>>>> 765169f31eb664d99106606b3f5b77e12b481249
 			display: inline-block;
 			font-family: FontAwesome;
 			font-size: 1.25em;
@@ -660,7 +675,38 @@
 			-moz-osx-font-smoothing:grayscale;
 		}
 		
-		.icon > .label {
+<<<<<<< HEAD
+		.icon1 > .label {
+			display: none;
+		}
+
+/*********************************************************************************/
+/* Icon2                                                                         */
+/*********************************************************************************/
+
+	.icon2 {
+		text-decoration: none;
+		color: #910b2c;
+		font-size: 300%;
+	}
+
+		.icon2:hover {
+			color: white;
+		}
+
+		.icon2:before {
+			display: inline-block;
+			font-family: FontAwesome;
+			font-size: 1.25em;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+			-webkit-font-smoothing:antialiased;
+			-moz-osx-font-smoothing:grayscale;
+		}
+
+		.icon2 > .label {
 			display: none;
 		}
 
@@ -978,6 +1024,7 @@
 
 	#contact {
 		background: url('../images/one.jpg');
+		background-size: 100%;
 		padding-bottom: 0;
 		overflow: hidden;
 	}
@@ -1003,6 +1050,40 @@
 		}
 
 			#contact.inactive .box {
+				bottom: -30em;
+			}
+
+/*********************************************************************************/
+/* Donation                                                                      */
+/*********************************************************************************/
+
+	#donation {
+		background: url('../images/two.jpg');
+		padding-bottom: 0;
+		overflow: hidden;
+	}
+
+		#donation .box {
+			position: relative;
+			bottom: 0;
+
+			-moz-transition: all 1s ease;
+			-webkit-transition: all 1s ease;
+			-o-transition: all 1s ease;
+			-ms-transition: all 1s ease;
+			transition: all 1s ease;
+
+			-moz-transform: translateZ(0);
+			-webkit-transform: translateZ(0);
+			-o-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+			transform: translateZ(0);
+		}
+
+		#donation.inactive {
+		}
+
+			#donation.inactive .box {
 				bottom: -30em;
 			}
 
