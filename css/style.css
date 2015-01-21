@@ -635,19 +635,20 @@
 				}
 
 /*********************************************************************************/
-/* Icon1                                                                        */
+/* Icons                                                                        */
 /*********************************************************************************/
 
-	.icon1 {
+	.icons {
 		 text-decoration: none;
 		 color: #E7AD36;
 		 font-size: 300%;
 	 }
-		.icon1:hover {
+
+		.icons:hover {
 			color: white;
 		}
 
-		.icon:before {
+		.icons:before {
 			display: inline-block;
 			font-family: FontAwesome;
 			font-size: 1.25em;
@@ -658,6 +659,37 @@
 			-webkit-font-smoothing:antialiased;
 			-moz-osx-font-smoothing:grayscale;
 		}
+
+		.icons > .label {
+			display: none;
+		}
+
+/*********************************************************************************/
+/* Icon1                                                                        */
+/*********************************************************************************/
+
+	.icon1 {
+		text-decoration: none;
+		color: #E7AD36;
+		font-size: 300%;
+	}
+
+		.icon1:hover {
+			color: white;
+		}
+
+		.icon1:before {
+			display: inline-block;
+			font-family: FontAwesome;
+			font-size: 1.25em;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+			-webkit-font-smoothing:antialiased;
+			-moz-osx-font-smoothing:grayscale;
+		}
+
 		.icon1 > .label {
 			display: none;
 		}
